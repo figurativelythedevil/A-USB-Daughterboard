@@ -396,7 +396,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "USB-hub-daughterboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
