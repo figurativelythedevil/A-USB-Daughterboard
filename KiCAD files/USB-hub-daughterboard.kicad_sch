@@ -3583,7 +3583,7 @@
   (symbol (lib_id "power:GND") (at 280.67 107.315 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0a7317f8-3d9b-42a2-8fba-eb568e61d21c)
-    (property "Reference" "#PWR?" (id 0) (at 280.67 113.665 0)
+    (property "Reference" "#PWR0116" (id 0) (at 280.67 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 280.797 111.7092 0))
@@ -3599,7 +3599,7 @@
   (symbol (lib_id "power:GND") (at 280.67 138.43 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7501ecea-c803-42b4-a5a3-e1dff4542b3a)
-    (property "Reference" "#PWR?" (id 0) (at 280.67 144.78 0)
+    (property "Reference" "#PWR0114" (id 0) (at 280.67 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 280.797 142.8242 0))
@@ -4048,7 +4048,7 @@
     (property "Reference" "R6" (id 0) (at 183.515 178.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "56k" (id 1) (at 183.515 178.435 0)
+    (property "Value" "56k" (id 1) (at 183.515 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 187.198 177.165 90)
@@ -4880,8 +4880,14 @@
     (path "/3dbba17f-240a-4c44-972a-d5225346b63f"
       (reference "#PWR0113") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/7501ecea-c803-42b4-a5a3-e1dff4542b3a"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
     (path "/002b4982-7b01-447a-b0fe-1cc7bd46fc29"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0a7317f8-3d9b-42a2-8fba-eb568e61d21c"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
     (path "/54744d34-60b1-41e5-b623-e614e7888dac"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
@@ -5014,12 +5020,6 @@
     )
     (path "/9a482179-e36f-4af7-b0f0-294af65bd1c1"
       (reference "#PWR0168") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/0a7317f8-3d9b-42a2-8fba-eb568e61d21c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7501ecea-c803-42b4-a5a3-e1dff4542b3a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/47863fa3-1e6f-4aa3-adf2-548a6c2ce974"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
