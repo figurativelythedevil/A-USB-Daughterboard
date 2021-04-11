@@ -67,7 +67,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 2
+        "version": 1
       },
       "rule_severities": {
         "annular_width": "error",
@@ -121,7 +121,11 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.18,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997
+        "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_paste_clearance": 0.0,
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.0,
@@ -405,7 +409,6 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -420,12 +423,6 @@
       "version": 0
     },
     "net_format_name": "",
-    "ngspice": {
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -435,7 +432,7 @@
   },
   "sheets": [
     [
-      "2cbc17ca-92ec-4133-9268-2709970834c1",
+      "c9fc5aec-41b9-495d-91d8-24b43ec65f57",
       ""
     ]
   ],
